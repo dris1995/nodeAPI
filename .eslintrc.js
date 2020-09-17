@@ -11,5 +11,6 @@ module.exports = {
     'ecmaVersion': 12,
   },
   'rules': {
+    'disable': 'new-cap',
   },
 };

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/dris1995/nodeAPI#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.10.5",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
