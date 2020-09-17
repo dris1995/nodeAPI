@@ -1,0 +1,41 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "This is a node.js REST api",
+  "main": "app.js",
+  "scripts": {
+    "lintInit": "eslint --init",
+    "lint": "eslint .",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dris1995/nodeAPI.git"
+  },
+  "author": "Idris Bowman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dris1995/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/dris1995/nodeAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
